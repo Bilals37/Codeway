@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@,400;0,&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #383838;
+}
+
+.calculator {
+    width: 350px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 3px 15px rgba(55, 56, 52, 0.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+}
+
+input {
+    width: 79%;
+    border: none;
+    text-align: right;
+    margin: 10px;
+    font-size: 35px;
+    text-indent: 40px;
+    background: transparent;
+    padding-right: 10px;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+    background: transparent;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.operator {
+    color: darkblue;
+}
+
+.operator:hover {
+    background-color: lightblue;
+}
+
+.eqlbtn {
+    color: darkgreen;
+}
+
+.eqlbtn:hover {
+    background-color: rgb(247, 202, 80);
+}
+
+.allClear {
+    color: darkred;
+}
+
+.allClear:hover {
+    background-color: rgb(253, 144, 144);
+}
+
+.delete {
+    color: rgb(235, 102, 102);
+
+}
+
+.delete:hover {
+    background-color: rgb(253, 144, 144);
+    color: darkred;
+}
+
+.num:hover {
+    background-color: rgb(203, 223, 174);
+}
