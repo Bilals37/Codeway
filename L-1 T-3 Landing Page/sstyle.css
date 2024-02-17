@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #95BAFE;
+}
+
+#header {
+    width: 95%;
+    height: 100vh;
+    /* padding: 10px 15%; */
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 12%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.logo>h1 {
+    font-size: 40px;
+}
+
+.navLink ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10%;
+}
+
+.navLink ul li {
+    list-style: none;
+    display: inline-block;
+    color: rgb(29, 29, 29);
+    border-radius: 3px;
+}
+
+.navLink ul li a {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navLink ul button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #C1F0E1;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.content>h4 {
+    color: #95BAFE;
+    font-size: 25px;
+}
+
+.content>h1 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.content>p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.btns>button {
+    padding: 10px 10px;
+    background: #95BAFE;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa-play {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+
+
+#contact .btn2:hover {
+    background: rgb(132, 199, 238);
+}
+
+.contact-right form {
+    width: 40%;
+}
+
+form input,
+textarea {
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    margin: 10px 0px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    background: #95BAFE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#msg {
+    color: green;
+    margin-top: -40px;
+    display: block;
+}
+
+.contact-right>h1 {
+    margin-top: 17px;
+}
